@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.filter-section{
+    width: 37%;
+    border-radius: 6px;
+    background: #ffff;
+    position: relative;
+    left: 16%;
+    top: 1rem;
+    box-shadow: 0xp 0px 2px -1px ;
+}
+.first-int{
+    width: 49%;
+    position: sticky;
+}
+.internship-filter{
+    background: #f8f8f8;
+}
+.search-2{
+    border-radius: 6px;
+    position: relative;
+    left: 16%;
+    box-shadow: 0px 0px 2px -1px black;
+    margin-top: 4rem;
+    margin-bottom: 23px;
+    background: #ffff;
+    height: 90px;
+    width: 37%;
+  }
+  .first-int{
+    width: 49%;
+    position: sticky;
+  }
+  
+  .search-2 input{
+      margin-left: 3px;
+      margin-top: 34px;
+      
+      width: 80%;
+      background: transparent;
+      border: 1px solid black;
+     
+  }
+  
+    .search-container {
+      margin-right: 45px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .search-icon{
+      margin-top: 34px;
+      width: 21px;
+      border-radius: 2px;
+      text-align: center;
+      background: #078edd;
+      height: 27px;
+      color: #ffff;
+    }
+    #display{
+      position: relative;
+      left: -46%;
+      width: 697px;
+      height: 300px;
+    }
+    .head {
+      margin-left: -6rem;
+      width: 20%;
+
+  }
+  
+  .show2{
+    margin-left: -14rem;
+    width: 26%;
+  }
+  .first2-int{
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 100%;
+    box-shadow: 0xp 0px 2px 2px ;
+  }
+  #close-btn{
+    margin-left:2px;
+  }
+    @media screen and (max-width: 768px) {
+      .first-int{
+        display: none;
+      }
+      .head {
+        margin-left: -6rem;
+        width: 20%;
+        position: relative;
+        left: -28%;
+  
+    }
+
+      #display{
+        position: relative;
+        left: -23%;
+        width: 93%;
+      }
+      .all-internships{
+        position: relative;
+        left: 20%;
+        width: 100%;
+      }
+      #hr{
+        position: relative;
+        top: 1%;
+      }
+      .close2{
+        background: #ffff;
+        color: black;
+        font-size: 25px;
+        position: relative;
+        left: 43%;   
+           width: 40px;
+       }
+       .head{
+        margin-left: 23rem;
+      }
+      .filterico{
+        margin-left: 45rem;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      #filter-ico {
+        display: none;
+      }
+    }
+    #viewButtons{
+  
+      margin-left: -4px;
+      border: 1px solid #078edd;
+      background-color: transparent;
+      border-radius:2px ;
+      width: 120px;
+      position: relative;
+      left: -5%;
+      top: -203%;
+      margin-bottom: 2px;
+    }
+    #viewButtons:hover{
+      box-shadow: 0px 0px 2px -1px black;
+    }
+    .info{
+      margin-left: -34rem;
+    }
+    .all-ele{
+margin-top: -45px;
+    }
+ 
+  

@@ -1,0 +1,181 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  
+  .main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  
+  .open-btn {
+    font-size: 30px;
+    cursor: pointer;
+position: relative;
+top: -3.5rem;
+margin-left: -13px;
+  }
+  
+  .sidebar.open {
+    width: 250px;
+  }
+  .App2{
+    box-shadow:  0px 0px 5px -2px black;
+    height: 70px;
+  }
+  
+  .main.open {
+    margin-left: 250px;
+  }
+  @media screen and (min-width: 768px) {
+    .App2{
+     display: none;
+    }
+
+    
+   }
+
+.addmore p{
+    margin-top: 12px;
+cursor: pointer;
+}
+.addmore {
+    margin-top:22px;
+font-weight: 300;
+}
+
+/*  for serach */
+.search2{
+  position: relative;
+  left: 46%;
+  top: -6.5rem;
+}
+.search2 input{
+
+    
+    font-size: 15px;
+    padding: 12px 2px;
+    width: 100px;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+  }
+  .all-internships {
+    position: relative;
+    left: 23%;
+    width: 77%;
+}
+.btn4{
+    position: relative;
+    left: 62%;
+    top: -9rem;
+background-color: #078edd;
+    outline: #078edd 2px solid;
+  color: white;
+border: none;
+width: 70px;
+height: 26px;
+font-size: 16px;
+border-radius: 2px;
+}
+.hire2{
+  position: relative;
+  left: 62%;
+  display: inline-flex;
+  height: 30px;
+  top: -10rem;
+  margin-left: 23px;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+  .search2{
+    position: relative;
+    left: 62%;
+    top: -6.9rem;
+
+  }
+  .search2 input{
+  
+      
+      font-size: 15px;
+      padding: 12px 2px;
+      width: 100px;
+      color: black;
+      font-weight: bolder;
+      border: none;
+      outline: none;
+  }
+  .btn4{
+    top: -9.2rem;
+    width: 50px;
+    font-size: 13px;
+    left: 82%;
+  }
+  .hire2{
+    position: relative;
+    left: 45%;
+    display: inline-flex;
+
+    top: -8.5rem;
+    font-size: 16px;
+    margin-left: 23px;
+    font-weight: 300;
+  }
+  .hire2 p{
+    font-size: 15px;
+  }
+
+  #nav2-img{
+position: relative;
+top: 2px;
+margin-left: 34px;
+  }
+  .open-btn {
+    font-size: 30px;
+    cursor: pointer;
+position: relative;
+top: -2.5rem;
+margin-left: -13px;
+  }
+}

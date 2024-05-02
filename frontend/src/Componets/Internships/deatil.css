@@ -1,0 +1,76 @@
+.apply{
+    justify-content: center;
+    width: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 12px;
+    height: 43px;
+    background: #078edd;
+    margin-bottom: 34px;
+    }
+    .submit-btn{
+    justify-content: center;
+    width: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 12px;
+    height: 43px;
+    background: #078edd;
+    margin-bottom: 34px;
+    }
+    .details-app p{
+        margin-left: 12px;
+    }
+    .moreSteps{
+        margin-left: 12px;
+    }
+    .bg{
+        border-radius: 6px;
+        background: #f8f8f8;
+    }
+    textarea{
+    
+        width: 60%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+      border: 1px solid gray;
+        border-radius: 4px;
+    
+        font-size: 16px;
+        resize: none;
+    }
+    .application-page{
+        width: 55%;
+        position: absolute;
+        left: 22%;
+        z-index: 1;
+        background-color: #ffff;
+        top: 20%;
+        box-shadow:  0px 0px 5px -2px #078edd;
+    }
+    @media screen and (max-width: 768px) {
+        .application-page{ width:70%;
+            text-align: center;
+            left: 16%;
+        }
+       .details-app{
+        position: relative;
+        width: 100%px;
+        margin-left: 0px;
+       }
+       .close2{
+        background: #ffff;
+        color: black;
+        font-size: 25px;
+        position: relative;
+        left: 42%; 
+        width: 40px;
+       }
+    }
+    #resume{
+    outline: gray;
+    outline-style: dashed;
+    background-color: #f8f8f8;
+    text-align: center;
+    }
